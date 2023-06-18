@@ -1,0 +1,4 @@
+# ignore CSVs and txt files.
+*.csv
+*.txt
+*.code-workspace
