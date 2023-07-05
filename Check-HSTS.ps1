@@ -72,7 +72,7 @@ foreach ($url in $urllist) {
         $hstsresults | Export-Csv $outfile -NoTypeInformation -Append
         continue
     }
-    
+    #Some error control or timeouts might be neeeded.  The check on the 100 hung up around 700.
 }
 
 
